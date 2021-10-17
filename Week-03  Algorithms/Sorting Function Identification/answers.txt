@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: by using sorted.txt file I can to know that it take very less time as compair to selection sort when used
+
+sort2 uses: merge sort
+
+How do you know?: because it took almost same time for every .txt file to sort and also it is fast than other two
+
+sort3 uses: selection sort
+
+How do you know?: the time comparison of bubble sort and selection sort for sorted and reversed .txt files
