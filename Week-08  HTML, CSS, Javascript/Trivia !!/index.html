@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+        <script>
+
+            // TODO: Add code to check answers to questions
+
+            /*function correct()
+            {
+                document.querySelector("mcq1").textContent = 'correct';
+                document.querySelector("mcq1").style.fontcolour = 'green';
+            }
+
+            function wrong()
+            {
+                document.querySelector("mcq1").textContent = 'incorrect';
+                document.querySelector("mcq1").style.fontcolour = 'red';
+            }
+
+            function reset_button_color()
+            {
+                document.querySelector('#correct').style.backgroundColor = '#d9edff';
+                document.querySelector('#wrong-1').style.backgroundColor = '#d9edff';
+                document.querySelector('#wrong-2').style.backgroundColor = '#d9edff';
+            }
+            */
+            /*function clicked()
+            {
+                document.querySelector("1D").style.backgroundColor = #ff0000;
+                document.querySelector("2B").style.backgroundColor = 'green';
+                document.querySelector("1A").style.backgroundColor = 'red';
+                document.querySelector("2A").style.backgroundColor = 'red';
+                document.querySelector("1B").style.backgroundColor = 'red';
+                document.querySelector("1C").style.backgroundColor = 'red';
+                document.querySelector("2C").style.backgroundColor = 'red';
+                document.querySelector("2D").style.backgroundColor = 'red';
+            }*/
+
+            function truee(event)
+            {
+                var i = event.target;
+                if(i.innerHTML == 'correct')
+                {
+                    document.getElementById(i.id).style.background = '#a1fc56';
+                    alert('Correct!');
+                }
+                else if(i.innerHTML == 'incorrect')
+                {
+                    document.getElementById(i.id).style.background = '#fc797c';
+                    alert('Incorrect');
+                }
+
+            }
+
+            function response()
+            {
+                let l = document.querySelector('#E11').value;
+                if (l == 'Admin')
+                {
+                    alert('Correct!');
+                }
+                else
+                {
+                    alert('Incorrect');
+                }
+            }
+
+
+
+        </script>
+
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia...!!!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+
+                <!-- TODO: Add multiple choice question here -->
+
+                <h3>
+                    <b>(1). </b>Add multiple choice question here !!
+                </h3>
+                <button onclick="truee(event)" id="A1" class="forbutton">incorrect</button>
+                <button onclick="truee(event)" id="B1" class="forbutton">incorrect</button>
+                <button onclick="truee(event)" id="C1" class="forbutton">incorrect</button>
+                <button onclick="truee(event)" id="D1" class="forbutton">correct</button>
+
+                <h3>
+                    <b>(1). </b>Add multiple choice question here !!
+                </h3>
+                <button onclick="truee(event)" id="A2" class="forbutton">incorrect</button>
+                <button onclick="truee(event)" id="B2" class="forbutton">correct</button>
+                <button onclick="truee(event)" id="C2" class="forbutton">incorrect</button>
+                <button onclick="truee(event)" id="D2" class="forbutton">incorrect</button>
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+
+                <!-- TODO: Add free response question here -->
+                <div class="section">
+                    <h3>
+                        <b>(1). </b>Add free reaponse question here !!
+                    </h3>
+                    <form onsubmit="response(); return false">
+                        <input id="E11" placeholder="Admin" type="text"/>
+                        <input type="submit" class="forbutton"/>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+</html>

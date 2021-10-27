@@ -1,0 +1,139 @@
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  -webkit-backdrop-filter: blur(50%);
+  backdrop-filter: blur(30%);
+  z-index: 100;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 23px;
+  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#kk{
+  float: right;
+  text-align: right;
+  text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 0.4em #ff0000,0 0 0.6em #ff0000, 0 0 0.8em #ff0000, 0 0 1.0em #ff0000, 0 0 1.2em #ff0000;
+  color: #fff;
+}
+
+.topnav a:hover {
+  color: black;
+  text-decoration: none;
+  text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+  -webkit-filter: drop-shadow(5px 5px 5px #000);
+  filter: (5px 5px 5px #000);
+  color: white;
+}
+
+body{
+  background-image: url(images-attached/backgroundpic.jpg);
+  background-position-x: 2000px;
+  background-position-y: 1080px;
+  background-attachment: fixed;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+pre{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+#hh{
+  font-family: "Copperplate", fantasy;
+  text-shadow: 0px 3px 3px rgb(0, 0, 0), 0 -3px 3px #000;
+  color: #ddd;
+  text-decoration: underline;
+  font-size: 75px;
+}
+
+#ww{
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 50px;
+}
+
+#jj{
+  font-family: "Copperplate", fantasy;
+  text-shadow: 0px 3px 3px rgb(0, 0, 0), 0 -3px 3px #000;
+  color: #ddd;
+  font-size: 45px;
+  text-decoration: underline;
+}
+
+#ll{
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  overflow: hidden;
+}
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 100px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  
+}
+.fa-github{
+  background: #000000;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  size: 50px;
+}
+.fa-instagram {
+  background: #b31ab3;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-linkedin {
+  background: #0256b6;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-twitter {
+  background: #2196f0;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa:hover {
+  opacity: 0.5;
+}
