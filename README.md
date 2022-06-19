@@ -165,8 +165,11 @@ I made <a href='https://github.com/Sandhu-Sahil/CS50x2021_Harvard_University'>th
 ## <strong>Demo of projects</strong>
 
 <mark style="background-color: white; color: black;"><b>Demo:1</b></mark>  <https://sandhu-sahil.github.io/Trivia-SS/>
+<br>
 <mark style="background-color: white; color: black;"><b>Demo:2</b></mark>  <https://sandhu-sahil.github.io/Intro-Homepage/>
+<br>
 <mark style="background-color: white; color: black;"><b>Demo:3</b></mark>  <https://birthday-tracker----sandhu.herokuapp.com/>
+<br>
 <mark style="background-color: white; color: black;"><b>Demo:4</b></mark>  <https://finance-stock-market----sandhu.herokuapp.com/>
 
 ## <strong>And Finally, The Final Project</strong>
