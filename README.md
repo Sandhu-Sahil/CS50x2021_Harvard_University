@@ -162,8 +162,16 @@ I made <a href='https://github.com/Sandhu-Sahil/CS50x2021_Harvard_University'>th
 
 <br>
 
+## <strong>Demo of projects</strong>
+
+<mark style="background-color: white; color: black;"><b>Demo:1</b></mark>  <https://sandhu-sahil.github.io/Trivia-SS/>
+<mark style="background-color: white; color: black;"><b>Demo:2</b></mark>  <https://sandhu-sahil.github.io/Intro-Homepage/>
+<mark style="background-color: white; color: black;"><b>Demo:3</b></mark>  <https://birthday-tracker----sandhu.herokuapp.com/>
+<mark style="background-color: white; color: black;"><b>Demo:4</b></mark>  <https://finance-stock-market----sandhu.herokuapp.com/>
+
 ## <strong>And Finally, The Final Project</strong>
 
+<mark style="background-color: white; color: black;"><b>Demo</b></mark>  <https://assess-enigma----sandhu.herokuapp.com/>
 - [Refer this repository for final project](https://github.com/Sandhu-Sahil/Assess_ENIGMA_......_Harvard_University)
 - [Video discription of Final project](https://youtu.be/vZalumjvILg)
 
